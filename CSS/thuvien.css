@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Mea+Culpa&family=Quicksand:wght@500&display=swap');
+body
+{
+	font-family:'Quicksand',Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 15px
+}
+h1,h2,h3,h4,h5,h6
+{
+	font-family:'Bitter',Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+}
+.font-viettay
+{
+	font-family: 'Mea Culpa', cursive;
+	font-size: 30px; color: brown
+		
+}
+*{box-sizing: border-box;
+  scroll-behavior: smooth
+}
+.container
+{
+	widows: 80%;
+	max-resolution: auto;
+	min-height: 500px;
+	border: 5px solid green
+}
+.row{display: flex}
+.col-1{ width: 8.33%}
+.col-2{ width: 16.66%}
+.col-3{ width: 25%}
+.col-4{ width: 33.33%}
+.col-5{ width: 41.66%}
+.col-6{ width: 50%}
+.col-7{ width: 58.33%}
+.col-8{ width: 66.66%}
+.col-9{ width: 75%}
+.col-10{ width: 83.33%}
+.col-11{ width: 91.66%}
+.col-12{ width: 100%}
+[class*="col-"]
+{
+	/*boder:1px solid red;*/
+	padding: 15px
+}
+.bg-primary
+{
+	background-color: antiquewhite
+}
+.img-100{width:100%; height: auto}
+.img-auto{width:50%;height:auto}
+/*---bat dau style cho nav---*/
+nav
+{
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333 
+}
+nav ul 
+{
+	display: flex;
+	list-style: none
+}
+nav ul li
+{
+	position: relative /* muc dich tao cac quan he ul con ve sau */
+}
+nav ul li a
+{ 
+padding: 10px 20px;
+background-color: #8EAE94;
+text-decoration: none;
+color: #000;
+font-weight: bold;
+margin: 1px
+}
+nav ul li a:hover
+{
+background-color: #AACEAC;
+color: #EBDEC5
+}
+
+
+
